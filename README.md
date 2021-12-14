@@ -1,2 +1,5 @@
-# RNAdeNoise
-R function for cleaning RNA-seq data from low-reads genes
+# RNAdeNoise - an R function for cleaning RNA-seq data from low-reads genes
+
+In this work, we developed a method for cleaning RNA-seq data, that improves the detection of genes with differential mRNA levels and specifically genes with low to moderate transcription. Using a data modeling approach, parameters of randomly distributed mRNA counts are identified and a number of mRNA reads, most probably originating from a technical noise, is determined individually for each dataset. We demonstrate that the removal of this random component leads to the detection of more genes, more significant p-values, and less statistical artifacts compared to the use of raw data or the use of filters based on fixed thresholds. Using our RNA-seq data on polysome profiling on Arabidopsis thaliana, a significant increase in the number of detected differentially translated regulatory genes was shown. Additionally, the method was applied to several published RNA-seq datasets covering different sequencing technologies and organisms, and in all cases, a significant increase in detected differentially expressed genes was shown. The program substitutes the widely used fixed threshold approach to remove low level mRNAs.
+
+Please see our upcoming publication for more details (reference will be updated on publishing)
