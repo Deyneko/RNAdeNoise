@@ -25,7 +25,7 @@ In details:
 <br>simialr to above, except: DEGs using DESeq2 program: 
 <br>DEG_DESq_DeNoise01.txt
 <br>DEG_DESq_FIX10.txt
-<br>G_DESq_FIX3.txt
+<br>DEG_DESq_FIX3.txt
 <br>DEG_DESq_FIX5.txt
 <br>DEG_DESq_FPKM.txt
 <br>DEG_DESq_HTS.txt
